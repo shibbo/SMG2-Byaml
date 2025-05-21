@@ -7,7 +7,6 @@ I was bored.
 # Usage
 Usage is simple. a ByamlIter is created when you want to iterate through an array or dictionary of BYAML nodes. Not all types are supported yet.
 <pre>
-```cpp
     ByamlIter iter(dataPtr);
     ByamlIter objList;
     bool success = iter.tryGetIterByKey(&objList, "ObjectList");
@@ -30,5 +29,4 @@ Usage is simple. a ByamlIter is created when you want to iterate through an arra
         const char* unitConfig = "";
         obj.tryGetStringByKey(&unitConfig, "UnitConfigName");
     }
-```
 </pre>
